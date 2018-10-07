@@ -12,9 +12,16 @@
 		84ACCD102153278600624487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ACCD0E2153278600624487 /* Main.storyboard */; };
 		84ACCD122153278700624487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ACCD112153278700624487 /* Assets.xcassets */; };
 		84ACCD152153278700624487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ACCD132153278700624487 /* LaunchScreen.storyboard */; };
+		84ACCD1D2153368700624487 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ACCD1C2153368700624487 /* SecondViewController.swift */; };
+		84ACCD1F21533D2700624487 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ACCD1E21533D2700624487 /* ThirdViewController.swift */; };
+		84ACCD212154935300624487 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84ACCD202154935300624487 /* GoogleService-Info.plist */; };
+		D6BB94784C29F5503E40C310 /* Pods_ButtonMagic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B54630DFC37C9C083AE3007 /* Pods_ButtonMagic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B54630DFC37C9C083AE3007 /* Pods_ButtonMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		119D3D821982BDE7E7F5E777 /* Pods-ButtonMagic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonMagic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonMagic/Pods-ButtonMagic.debug.xcconfig"; sourceTree = "<group>"; };
+		1DC6856B279F9B0863B84DFA /* Pods-ButtonMagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonMagic.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonMagic/Pods-ButtonMagic.release.xcconfig"; sourceTree = "<group>"; };
 		84ACCD072153278600624487 /* ButtonMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ACCD0A2153278600624487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84ACCD0C2153278600624487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		84ACCD112153278700624487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84ACCD142153278700624487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84ACCD162153278700624487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ACCD1C2153368700624487 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		84ACCD1E21533D2700624487 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		84ACCD202154935300624487 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6BB94784C29F5503E40C310 /* Pods_ButtonMagic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D30F1582EEC6E22DE91BBC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B54630DFC37C9C083AE3007 /* Pods_ButtonMagic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84ACCCFE2153278600624487 = {
 			isa = PBXGroup;
 			children = (
 				84ACCD092153278600624487 /* ButtonMagic */,
 				84ACCD082153278600624487 /* Products */,
+				CBB1E3D522EA7B2ED666E12D /* Pods */,
+				3D30F1582EEC6E22DE91BBC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +77,24 @@
 			children = (
 				84ACCD0A2153278600624487 /* AppDelegate.swift */,
 				84ACCD0C2153278600624487 /* ViewController.swift */,
+				84ACCD1C2153368700624487 /* SecondViewController.swift */,
+				84ACCD1E21533D2700624487 /* ThirdViewController.swift */,
 				84ACCD0E2153278600624487 /* Main.storyboard */,
 				84ACCD112153278700624487 /* Assets.xcassets */,
 				84ACCD132153278700624487 /* LaunchScreen.storyboard */,
 				84ACCD162153278700624487 /* Info.plist */,
+				84ACCD202154935300624487 /* GoogleService-Info.plist */,
 			);
 			path = ButtonMagic;
+			sourceTree = "<group>";
+		};
+		CBB1E3D522EA7B2ED666E12D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				119D3D821982BDE7E7F5E777 /* Pods-ButtonMagic.debug.xcconfig */,
+				1DC6856B279F9B0863B84DFA /* Pods-ButtonMagic.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84ACCD192153278700624487 /* Build configuration list for PBXNativeTarget "ButtonMagic" */;
 			buildPhases = (
+				834729E837FC66B31A31A091 /* [CP] Check Pods Manifest.lock */,
 				84ACCD032153278600624487 /* Sources */,
 				84ACCD042153278600624487 /* Frameworks */,
 				84ACCD052153278600624487 /* Resources */,
+				4656D6D612FFB780084DF131 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84ACCD152153278700624487 /* LaunchScreen.storyboard in Resources */,
+				84ACCD212154935300624487 /* GoogleService-Info.plist in Resources */,
 				84ACCD122153278700624487 /* Assets.xcassets in Resources */,
 				84ACCD102153278600624487 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +166,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4656D6D612FFB780084DF131 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ButtonMagic/Pods-ButtonMagic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButtonMagic/Pods-ButtonMagic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834729E837FC66B31A31A091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ButtonMagic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84ACCD032153278600624487 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ACCD1D2153368700624487 /* SecondViewController.swift in Sources */,
 				84ACCD0D2153278600624487 /* ViewController.swift in Sources */,
+				84ACCD1F21533D2700624487 /* ThirdViewController.swift in Sources */,
 				84ACCD0B2153278600624487 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +367,7 @@
 		};
 		84ACCD1A2153278700624487 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119D3D821982BDE7E7F5E777 /* Pods-ButtonMagic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +386,7 @@
 		};
 		84ACCD1B2153278700624487 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC6856B279F9B0863B84DFA /* Pods-ButtonMagic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
